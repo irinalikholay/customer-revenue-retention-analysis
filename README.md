@@ -24,3 +24,20 @@ What was done:
 
 Result:
 Dataset contains missing CustomerID and invalid transactions (negative quantity, cancelled invoices)
+
+*File:
+`src/explore_data.py`
+
+### DATA CLEANING ###
+
+Clean dataset and remove invalid transaction.
+
+What was done:
+- Removed missing Customer_ID
+- Filtered negative quantity
+- Removed zero/negative prices
+- Excluded cancelled invoices
+- Converted date column 
+
+*File:
+`src/data_cleaning.py`
