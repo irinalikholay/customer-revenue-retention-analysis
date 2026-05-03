@@ -41,3 +41,19 @@ What was done:
 
 *File:
 `src/data_cleaning.py`
+
+### LOAD TO SQL & REVENUE CALCULATION 
+
+Load cleaned data into database and calculated revenue
+
+What was done:
+- Loaded data into SQLite
+- Created `transactions` table
+- Calculated revenue per order 
+- Calculated revenue per customer
+
+As a result , prepared revenue metrics for further analysis
+
+*Files:
+`src/load_to_sql.py`
+`sql/revenue_analysis.sql`
