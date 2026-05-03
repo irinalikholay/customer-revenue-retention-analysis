@@ -57,3 +57,26 @@ As a result , prepared revenue metrics for further analysis
 *Files:
 `src/load_to_sql.py`
 `sql/revenue_analysis.sql`
+
+### CUSTOMER ANALYSIS ###
+
+Goal of this step, is to understand customer behavior
+
+What was done:
+- Calculated number of customers and orders 
+- Measured average order value 
+- Analyzed orders per customer
+- calculated repeat customer rate 
+
+Key Metrics:
+- Total customers: 5,878
+- Total orders: 36,969
+- Average order value: ~480
+- Average orders per customer: ~6.3
+- Repeat customer rate: 72.39%
+
+# Insights
+The business shows strong customer engagement and retention.
+On average, each customer makes more than 6 purchases, which indicates high loyalty.
+
+A repeat customer rate above 70% suggests that most users return after their first purchase, highlighting a strong product-market fit and effective customer retention strategy.
