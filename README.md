@@ -80,3 +80,30 @@ The business shows strong customer engagement and retention.
 On average, each customer makes more than 6 purchases, which indicates high loyalty.
 
 A repeat customer rate above 70% suggests that most users return after their first purchase, highlighting a strong product-market fit and effective customer retention strategy.
+
+### CUSTOMER LTV ###
+
+My goal is to understand how much revenue each customer generates and identify high-value segments.
+
+What was done:
+- Calculated LTV per customer
+- Measured average customer value 
+- Segmented customers into Low, Medium and High value groups.
+
+Key Metrics:
+- Average LTV : ~3018
+
+Customer distribution: 
+- High Value: 2747 customers
+- Medium Value: 2924 customers
+- Low Value: 207 customers
+
+# Insights
+
+The business demonstrates strong customer value and retention.
+
+The average customer generates over 3000 in revenue, indicating that users make multiply purchases over time.
+
+A large proportion of customers fall into high-value segment, which suggests that revenue is not concentrated in a small group of users. Instead, many customers contribute significantly to overall revenue.
+
+The relatively small number of low-value customers indicates a high-quality customer base with strong engagement and purchasing behavior.
