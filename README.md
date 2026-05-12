@@ -107,3 +107,21 @@ The average customer generates over 3000 in revenue, indicating that users make 
 A large proportion of customers fall into high-value segment, which suggests that revenue is not concentrated in a small group of users. Instead, many customers contribute significantly to overall revenue.
 
 The relatively small number of low-value customers indicates a high-quality customer base with strong engagement and purchasing behavior.
+
+### COHORT PREPARATION ###
+
+In this step I was prepared cohort data for retention analysis.
+
+What was done:
+- Created `customer_cohort` table
+- Identify each customers first purchase month (`cohort month`)
+- Extracted purchase month for every transaction 
+- Calculated months since first purchase 
+
+Example:
+Customer first purchase: 2009-12
+Next purchase: 2010-03
+Month since first purchase; 3
+
+*Files:
+`sql/cohort_preparation.sql`
