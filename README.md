@@ -125,3 +125,31 @@ Month since first purchase; 3
 
 *Files:
 `sql/cohort_preparation.sql`
+
+### RETENTION ANALYSIS ###
+
+Calculated customer retention metrics based on cohort behavior.
+
+What was done:
+- Creaded `retention_table` for cohort retention preparation 
+- Created `retention_metrics` for final retention calculations
+- Assigned customers to their first purchase cohort
+- Calculated months since first purchase 
+- Counted active customers by cohort and month
+- Calculated total customers in each cohort
+- Calculated retention rate (%)
+
+Created database tables:
+- `retention_table`
+- `retention_metrics`
+
+Key columns:
+- `cohort_month` - customer´s first purchase month
+- `months_since_first_purchase` - months after first purchase 
+- `active_customers` - number of returning customers
+- `total_customers` - total customers in the cohort 
+- `retention_rate` - retention percentage
+
+Files:
+- `sql/retention_analysis.sql`
+- `sql/retention_metrics.sql`
