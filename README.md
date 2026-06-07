@@ -185,3 +185,31 @@ A ranking of the ten most valuable customers based on total lifetime value. This
 A time series visualization showing monthly revenue trends. This chart helps identify seasonality, growth patterns, and revenue fluctuations throughout the observed period.
 
 ![Revenue Over Time](outputs/revenue_over_time.png)
+
+
+### KEY FINDINGS ###
+
+# Customer Retention
+- Customer retention drops significantly after the first purchase month.
+- Most cohorts retain approximately 25–40% of customers after one month.
+- Several cohorts show temporary retention increases, suggesting seasonal purchasing behavior.
+
+# Customer Lifetime Value
+- The customer base is concentrated in the Medium and High Value segments.
+- Only a small percentage of customers belong to the Low Value segment.
+- High Value customers contribute a significant portion of total revenue.
+
+# Top Customers
+- A small group of customers generates exceptionally high lifetime value.
+- The highest-value customer generated more than 600,000 in revenue.
+- Revenue contribution is heavily concentrated among top customers.
+
+# Revenue Trends
+- Revenue demonstrates strong seasonal patterns.
+- The highest revenue levels occur during the final months of the year.
+- Revenue declines sharply after peak seasonal periods, indicating holiday-driven demand.
+
+# Business Impact
+- Retention improvement initiatives could significantly increase long-term customer value.
+- High Value customers should be prioritized for loyalty and retention programs.
+- Seasonal demand patterns should be considered when planning marketing campaigns and inventory management.
