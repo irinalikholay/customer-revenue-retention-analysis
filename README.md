@@ -12,6 +12,7 @@ Tools:
 - Python (pandas)
 - Visualization (matplotlib/seaborn)
 
+
 ### DATA EXPLORATION ###
 
 My goal is to understand dataset structure and check data quality.
@@ -28,6 +29,7 @@ Dataset contains missing CustomerID and invalid transactions (negative quantity,
 *File:
 `src/explore_data.py`
 
+
 ### DATA CLEANING ###
 
 Clean dataset and remove invalid transaction.
@@ -41,6 +43,7 @@ What was done:
 
 *File:
 `src/data_cleaning.py`
+
 
 ### LOAD TO SQL & REVENUE CALCULATION 
 
@@ -57,6 +60,7 @@ As a result , prepared revenue metrics for further analysis
 *Files:
 `src/load_to_sql.py`
 `sql/revenue_analysis.sql`
+
 
 ### CUSTOMER ANALYSIS ###
 
@@ -80,6 +84,7 @@ The business shows strong customer engagement and retention.
 On average, each customer makes more than 6 purchases, which indicates high loyalty.
 
 A repeat customer rate above 70% suggests that most users return after their first purchase, highlighting a strong product-market fit and effective customer retention strategy.
+
 
 ### CUSTOMER LTV ###
 
@@ -108,6 +113,7 @@ A large proportion of customers fall into high-value segment, which suggests tha
 
 The relatively small number of low-value customers indicates a high-quality customer base with strong engagement and purchasing behavior.
 
+
 ### COHORT PREPARATION ###
 
 In this step I was prepared cohort data for retention analysis.
@@ -125,6 +131,7 @@ Month since first purchase; 3
 
 *Files:
 `sql/cohort_preparation.sql`
+
 
 ### RETENTION ANALYSIS ###
 
@@ -153,3 +160,28 @@ Key columns:
 Files:
 - `sql/retention_analysis.sql`
 - `sql/retention_metrics.sql`
+
+
+### DATA VISUALIZATION ###
+
+This step includes several visualizations to support customer retention and revenue analysis.
+
+# 1. RETENTION HEATMAP
+A cohort retention heatmap showing customer retention rates over time. This visualization helps identify how customer engagement changes after the first purchase.
+
+![Retention Heatmap](outputs/retention_heatmap.png)
+
+# 2. CUSTOMER LIFETIME VALUE DISTRIBUTION
+Customer were segmented into Low Value, Medium Value and High Value groups based on their lifetime value. This chart provides insight into the distribution of customer profitability and overall customer value.
+
+![Customer Lifetime Value Distribution](outputs/ltv_distribution.png)
+
+# 3. TOP 10 CUSTOMERS by LIFETIME VALUE 
+A ranking of the ten most valuable customers based on total lifetime value. This visualization highlights the customers who contribute the most revenue to the business.
+
+![Top Customers](outputs/top_customers.png)
+
+# 4. REVENUE OVER TIME
+A time series visualization showing monthly revenue trends. This chart helps identify seasonality, growth patterns, and revenue fluctuations throughout the observed period.
+
+![Revenue Over Time](outputs/revenue_over_time.png)
